@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------------ CORES --------------*/
+.cor_fe5212
+{
+	color:#fe5212 !important;
+}
+/*------------------ MARGENS --------------*/
+.margin_left_5
+{
+	margin-left:5px !important;
+}
+.margin_top_40
+{
+	margin-top:40px !important;
+}
+.margin_bottom_10
+{
+	margin-bottom:10px !important;
+}
+.margin_bottom_20
+{
+	margin-bottom:20px !important;
+}
+.margin_bottom_40
+{
+	margin-bottom:40px !important;
+}
+/*------------------ ÁREA PRINCIPAL --------------*/
+.principal
+{
+	margin:20px 0px 40px 0px;
+}
+.principal h2
+{
+	font-size:25px;
+	min-height:35px;
+	border-bottom:#fe5212 2px solid;
+}
+.principal h2 small
+{
+	font-size:16px;
+}
+.btn.btn-primary.lupa
+{
+	padding:10px 15px 10px 15px;
+}
+.lateral_fundocinza
+{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	background:#e9e9e9;
+}
+.btn.btn-primary.compra span
+{
+	float:left;
+}
+.btn.btn-primary.compra
+{
+	background:#8dc63f;
+	border:#77a635 1px solid;
+}
+.btn.btn-primary.compra:hover
+{
+	background:#77a635;
+}
+/*------------------ MENU LATERAL --------------*/
+.menu_lateral
+{
+	font-size:12px;
+	text-transform:uppercase;
+	padding:10px 0px 10px 0px;
+	margin-top:20px;
+	margin-right:0px;
+	background:#e9e9e9;
+}
+.menu_lateral h4
+{
+	padding:0px 0px 0px 20px;
+}
+.menu_lateral .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+	background:#fe5212;
+}
+.menu_lateral .nav>li>a
+{
+	border-radius:0px;
+	padding:5px 10px 5px 20px;
+}
+/*------------------ DADOS PESSOAIS --------------*/
+.dados_pessoais
+{
+	font-size:12px;
+	text-transform:uppercase;
+	padding:20px 20px 10px 20px;
+	margin-top:10px;
+	margin-right:0px;
+	background:#e9e9e9;
+}
+.dados_pessoais .btn.btn-primary
+{
+	margin:5px 0px 20px 0px;
+	padding:5px 0px 5px 0px;
+	font-size:12px;
+	width:100%;
+}
+/*------------------ CURSOS DISPONIVEIS --------------*/
+.cursos_disponiveis
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	background:#e9e9e9;
+}
+.cursos_disponiveis p
+{
+	text-align:center;
+	margin:10px 0px 10px 0px;
+}
+
+.cursos_disponiveis img
+{
+	margin-bottom:5px;
+}
+.cursos_disponiveis .btn.btn-primary
+{
+	margin:0px 0px 0px 0px;
+	padding:5px 0px 5px 0px;
+	font-size:12px;
+	width:100%;
+}
+.progress
+{
+	margin-bottom:10px;
+	background:#919191;
+}
+.progress-bar
+{
+	text-indent:10px;
+	background:#39b54a;
+}
+.cursos_disponiveis_detalhe
+{
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	background:#e9e9e9;
+}
+/*------------------ CURSOS DISPONIVEIS - INTERNA --------------*/
+.cursos_disponiveis_interna
+{
+	overflow:hidden;
+	padding-top:30px;
+	background:#e9e9e9;
+	text-align:center;
+}
+.cursos_disponiveis_interna p
+{
+	text-align:center;
+	margin:10px 0px 10px 0px;
+}
+
+.cursos_disponiveis_interna img
+{
+	margin:0px auto 0px auto;
+}
+.cursos_disponiveis_interna .btn.btn-primary
+{
+	margin:0px 0px 0px 0px;
+	font-size:12px;
+}
+
+.cursos_disponiveis_interna .curso
+{
+	margin-bottom:30px;	
+}
+/*------------------ AULA --------------*/
+.aula
+{
+	padding-top:20px;
+	margin-top:10px;
+	margin-right:0px;
+}
+.material_complementar
+{
+	padding-top:10px;
+	padding-bottom:20px;
+	margin-top:20px;
+	margin-bottom:40px;
+	background:#e9e9e9;
+	text-align:center;
+}
+.material_complementar img
+{
+	margin:0px auto 10px auto;
+}

@@ -1,0 +1,187 @@
+<!-- FOOTER -->
+
+<!-- ======== @Region: #footer ======== -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col">
+                <div class="block contact-block">
+                    <!--@todo: replace with company contact details-->
+                    <h3>
+                        Contato
+                    </h3>
+                    <address>
+                        <ul class="fa-ul">
+                            <li>
+                                <abbr title="Phone"><i class="fa fa-li fa-phone"></i></abbr>
+                                (21) 98766-9866
+                            </li>
+                            <li>
+                                <abbr title="Email"><i class="fa fa-li fa-envelope"></i></abbr>
+                                jane@explicadorvirtual.com.br
+                            </li>
+                            <li>
+                                <abbr title="Address"><i class="fa fa-li fa-home"></i></abbr>
+                                Av. das Américas, 500 - Bl 11 - Lj 108 - Shopping Downtown - Barra da Tijuca - Rio de Janeiro - RJ
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+
+            <div class="col-md-5 col">
+                <div class="block">
+                    <h3>
+                        Sobre Nós
+                    </h3>
+                    <p>Saiba mais sobre nossas propostas para melhorar o desempenho dos seus filhos na escola!</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col">
+                <div class="block newsletter">
+                    <h3>
+                        Newsletter
+                    </h3>
+                    <p>Fique atualizado, receba nossos informativos semanais.</p>
+                    <!--@todo: replace with mailchimp code-->
+                    <form role="form">
+                        <div class="input-group input-group-sm">
+                            <label class="sr-only" for="email-field">Email</label>
+                            <input type="text" class="form-control" id="email-field" placeholder="Email">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="toplink">
+                <a href="#top" class="top-link" title="Back to top">Voltar ao topo <i class="fa fa-chevron-up"></i></a>
+            </div>
+            <!--@todo: replace with company copyright details-->
+            <div class="subfooter">
+                <div class="col-md-6">
+                    <p>Todos os direitos reservados 2015 &copy; Explicador Virtual</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline footer-menu">
+                        <li><a href="#">Termos de uso</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                        <li><a href="#">Fale conosco</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</footer>
+<!--Hidden elements - excluded from jPanel Menu on mobile-->
+<div class="hidden-elements jpanel-menu-exclude">
+    <!--@modal - signup modal-->
+    <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">
+                        Sign Up
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <form action="signup.htm" role="form">
+                        <h5>
+                            Price Plan
+                        </h5>
+                        <select class="form-control">
+                            <option>Basic</option>
+                            <option>Pro</option>
+                            <option>Pro +</option>
+                        </select>
+
+                        <h5>
+                            Account Information
+                        </h5>
+                        <div class="form-group">
+                            <label class="sr-only" for="signup-first-name">First Name</label>
+                            <input type="text" class="form-control" id="signup-first-name" placeholder="First name">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="signup-last-name">Last Name</label>
+                            <input type="text" class="form-control" id="signup-last-name" placeholder="Last name">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="signup-username">Userame</label>
+                            <input type="text" class="form-control" id="signup-username" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="signup-email">Email address</label>
+                            <input type="email" class="form-control" id="signup-email" placeholder="Email address">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="signup-password">Password</label>
+                            <input type="password" class="form-control" id="signup-password" placeholder="Password">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="term">
+                                I agree with the Terms and Conditions. 
+                            </label>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Sign up</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <small>Already signed up? <a href="login.htm">Login here</a>.</small>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!--@modal - login modal-->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="formLogin">
+                        <div class="form-group">
+                            <label for="email-field">Email</label>
+                            <input type="text" class="form-control" id="login" placeholder="Login">
+                        </div>
+                        <div class="form-group">
+                            <label for="email-field">Senha</label>
+                            <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
+                        </div>
+
+                        <button type="button" class="btn btn-primary" onclick="fazerLogin();">ENTRAR</button>
+                    </form>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+
+
+<!--Scripts -->
+<script src="{url}js/jquery.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="{url}js/bootstrap.min.js"></script>
+
+
+<!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
+
+<!--Custom scripts mainly used to trigger libraries/plugins -->
+<script src="{url}js/script.min.js"></script>
+</body>
+</html>
