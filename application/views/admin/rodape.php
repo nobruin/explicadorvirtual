@@ -183,51 +183,11 @@
     <!-- /.modal -->
 </div>
 
-
-
-<!--Scripts -->
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="{url}js/jquery.maskedinput.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
-<!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
-<script src="{url}js/vendor/jquery.ui.widget.js"></script>
-<!-- The Load Image plugin is included for the preview images and image resizing functionality -->
-<script src="http://blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
-<!-- The Canvas to Blob plugin is included for image resizing functionality -->
-<script src="//blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
-<!-- Bootstrap JS is not required, but included for the responsive demo navigation -->
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<!-- blueimp Gallery script -->
-<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-<!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
-<script src="{url}js/jquery.iframe-transport.js"></script>
-<!-- The basic File Upload plugin -->
-<script src="{url}js/jquery.fileupload.js"></script>
-<!-- The File Upload processing plugin -->
-<script src="{url}js/jquery.fileupload-process.js"></script>
-<!-- The File Upload image preview & resize plugin -->
-<script src="{url}js/jquery.fileupload-image.js"></script>
-<!-- The File Upload audio preview plugin -->
-<script src="{url}js/jquery.fileupload-audio.js"></script>
-<!-- The File Upload video preview plugin -->
-<script src="{url}js/jquery.fileupload-video.js"></script>
-<!-- The File Upload validation plugin -->
-<script src="{url}js/jquery.fileupload-validate.js"></script>
-<!-- The File Upload Angular JS module -->
-<script src="{url}js/jquery.fileupload-angular.js"></script>
 <!-- The main application script -->
-<script src="{url}js/app.js"></script>
 <script src="{url}js/default.js"></script>
-
-<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
 <!-- Bootstrap JS -->
 <script src="{url}js/bootstrap.min.js"></script>
-
-
 <!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
 
 <!--Custom scripts mainly used to trigger libraries/plugins -->

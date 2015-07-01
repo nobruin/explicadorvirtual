@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://malsup.github.com/jquery.form.js"></script>
 
 <div class="col-sm-9 col-md-9 col-lg-9">
     <h3>CADASTRAR DE AULAS</h3>
@@ -51,8 +50,7 @@
         sendPost("{url}aulas/cadastrarArquivosAula", qs, function (result) {
             alert(result);
         });
-    }
-    aumentarDiv();
+    }    
 </script>
 
 

@@ -14,12 +14,10 @@ class Vimeo_Class
     private $token = '6d00a6040de93b255175bae6c8587060';
     private $vimeo, $user = null;
    * 
-   */
-   
-    
+   */ 
     
   //localhost
-    var $client_id = "8589c09368605106aa2ab843ae1aa781d025ce4e"; 
+     var $client_id = "8589c09368605106aa2ab843ae1aa781d025ce4e"; 
      var $client_secret = "d292haF/HAxUjoWHFmQ4RfhbK+3jfNHgwhhgKOD6NGGJD6Z6Ra3ahQt589+ay2idc+xXfLyrqzJCYQwex1VaAWWs9S3neiFlWKqK1ZqEj2oSKvsjUkb/PHB5ffNCjqIY";
      var $vimeo;
      var $token = "c795eb9ca14f748ae4fded096ee11e56";
@@ -52,8 +50,7 @@ class Vimeo_Class
     
     function getVideos($parms){
         return $this->vimeo->request('/me/videos', $parms);
-    }
-    
+    }    
     
     function getInfoUser(){
         return $this->user;

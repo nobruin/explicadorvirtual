@@ -65,9 +65,13 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Rambla' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
-
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
         <!-- Mudanças específicas Explicador Virtual -->
         <link href='{url}css/explicador_virtual.css' rel='stylesheet' type='text/css'>
+        
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
         <!--Plugin: Retina.js (high def image replacement) - @see: http://retinajs.com/-->
         <script src="{url}plugins/retina/dist/retina.min.js"></script>
     </head>
