@@ -1,3 +1,6 @@
+var baseUrl = location.origin + "/" == "http://localhost:8080/" ? "http://localhost:8080/explicadorvirtual/" : location.origin + "/";
+var urlPura = location.hostname + "/";
+
 /********************************************************
  *
  * Custom Javascript code for AppStrap Bootstrap theme
@@ -6,7 +9,7 @@
  *******************************************************/
 /*global jRespond */
 var jPM = {};
-var PLUGINS_PATH = './plugins/';
+var PLUGINS_PATH = baseUrl+'/plugins/';
 var SLIDER_REV_VERSION = '4.6';
 jQuery(document).ready(function() {
   "use strict";
