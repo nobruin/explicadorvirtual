@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/var/www/html/explicadorvirtual/nbproject/ci.php</file>
+            <file>file:/var/www/html/explicadorvirtual/application/controllers/aulas.php</file>
             <file>file:/var/www/html/explicadorvirtual/js/script.js</file>
+            <file>file:/var/www/html/explicadorvirtual/application/models/materia_model.php</file>
+            <file>file:/var/www/html/explicadorvirtual/application/views/aulas/form-add.php</file>
             <file>file:/var/www/html/explicadorvirtual/js/script.min.js</file>
             <file>file:/var/www/html/explicadorvirtual/js/default.js</file>
+            <file>file:/var/www/html/explicadorvirtual/application/models/videos_model.php</file>
             <file>file:/var/www/html/explicadorvirtual/application/config/database.php</file>
         </group>
     </open-files>

@@ -49,7 +49,7 @@ function fazerLogin() {
     var login = $('#login').val();
     var senha = $('#senha').val();
 
-    sendPost('login', {login: login, senha: senha}, function (data) {
+    sendPost(baseUrl+'login', {login: login, senha: senha}, function (data) {
         if (data == 1) {
             window.location.href = baseUrl + 'administracao';
         } else
