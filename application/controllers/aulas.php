@@ -56,7 +56,8 @@ class Aulas extends CI_Controller {
         }
         $nomeProfessor = explode(' ',str_replace(')','',$materiaSearch[1]));
         $likeVideos = "{$numeroAula}{$nomeProfessor[0]}-{$nomeProfessor[0]}-{$nomeProfessor[0]} {$numeroAula}";
-        $video = $this->videos_model->getSearch(null, null, 'v.video_titulo', $likeVideos);
+        $likeAND = "{$nomeProfessor[0]}-{$numeroAula}";
+        $video = $this->videos_model->getSearch(null, null, 'v.video_titulo', null, null, null, $likeAND);
         //var_dump($materia);
         //var_dump($curso);
         var_dump($video);
