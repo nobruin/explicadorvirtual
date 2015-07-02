@@ -16,20 +16,20 @@
             <div id="files" class="files"></div>
             <div class="form-group">
                 <span class="btn btn-success fileinput-button enable" style="width: 300px;">
-                    <label for="curso_icone"><span>CLIQUE PARA ADICIONAR O PDF DA AULA:</span></label>
-                    <input type="file" class="btn btn-success" name="curso_icone" id="curso_icone" />
+                    <label for="aulaPdf"><span>CLIQUE PARA ADICIONAR O PDF DA AULA:</span></label>
+                    <input type="file" class="btn btn-success" name="aulaPdf" id="aulaPdf" />
                 </span>
             </div>
 
             <div class="form-group">
                 <span class="btn btn-success fileinput-button enable" style="width: 300px;" >
-                    <label for="curso_icone"><span>CLIQUE PARA ADICIONAR O MAPA DA AULA:</span></label>
-                    <input type="file" class="btn btn-success" name="curso_icone" id="curso_icone" />
+                    <label for="mapaAula"><span>CLIQUE PARA ADICIONAR O MAPA DA AULA:</span></label>
+                    <input type="file" class="btn btn-success" name="mapaAula" id="mapaAula" />
                 </span>
             </div>
 
 
-            <button class="btn btn-success" type="button" onclick="cadastraArquivosAula()">SALVAR</button>
+            <button class="btn btn-success" type="submit">SALVAR</button>
             <button class="btn btn-primary" type="button" onclick="location.href = '{url}aulas';" >VOLTAR</button>
         </form>
     </div>

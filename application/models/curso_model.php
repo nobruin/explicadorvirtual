@@ -21,13 +21,17 @@ class Curso_Model extends CI_Model {
         if ($like != "" || $like != null) {
             $arrLike = explode(' ', $like);
             for ($i = 0; $i < count($arrLike); $i++) {
-                $this->db->where("( c.curso_nome LIKE '%{$arrLike[$i]}%')");
+                $this->db->or_where("( c.curso_nome LIKE '%{$arrLike[$i]}%')");
             }
         }
         $where['c.curso_apagado'] = 0;
+        if($where != null){
+            $this->db->where($where);
+        }
         
-        $this->db->where($where);
-        $this->db->order_by($order);
+        if($order != null){
+            $this->db->order_by($order);
+        }
 
         if ($limit != null) {
             $this->db->limit($limit, $offset);
@@ -51,7 +55,6 @@ class Curso_Model extends CI_Model {
     }
     
     function adicionarIcone($idcurso, $img, $caminhoFisico) {
-
         return $this->db->update('cursos', array('curso_icone' => $img, 'curso_icone_caminho_fisico' => $caminhoFisico), array('curso_id' => $idcurso));
     }
     

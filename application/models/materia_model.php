@@ -21,13 +21,19 @@ class Materia_Model extends CI_Model {
         if ($like != "" || $like != null) {
             $arrLike = explode(' ', $like);
             for ($i = 0; $i < count($arrLike); $i++) {
-                $this->db->where("( m.materia_nome LIKE '%{$arrLike[$i]}%')");
+                $this->db->or_where("( m.materia_nome LIKE '%{$arrLike[$i]}%')");
             }
         }
         $where['m.materia_apagado'] = 0;
 
-        $this->db->where($where);
-        $this->db->order_by($order);
+        if(!empty($where)){
+            $this->db->where($where);
+        }
+
+        if($order != null){
+            $this->db->order_by($order);
+        }
+        
 
         if ($limit != null) {
             $this->db->limit($limit, $offset);

@@ -37,10 +37,34 @@ class Aulas extends CI_Controller {
     }
     
     public function cadastrarArquivosAula(){
+        $this->load->model('materia_model');
+        $this->load->model('usuario_model');
+        $this->load->model('videos_model');
+        $this->load->model('curso_model');
+       
+        $arrAulapdf = explode('-',$_FILES['aulaPdf']['name']);
         
-        var_dump($this->input->get_post());
+        var_dump($arrAulapdf);
         
-        var_dump($_FILES);
+        $anoAula = (int) preg_replace("/[^0-9]/","", $arrAulapdf[0]);
+        $curso = $this->curso_model->get(null, null, null, $anoAula);
+        $materiaSearch = explode('(',trim($arrAulapdf[1]));
+        $materia = $this->materia_model->get(null, null, null, trim($materiaSearch[0]));
+        $numeroAula = (int) preg_replace("/[^0-9]/","", $arrAulapdf[2]);
+        if($numeroAula < 9){
+            $numeroAula = "00$numeroAula";
+        }
+        $nomeProfessor = explode(' ',str_replace(')','',$materiaSearch[1]));
+        $likeVideos = "{$numeroAula}{$nomeProfessor[0]}-{$nomeProfessor[0]}-{$nomeProfessor[0]} {$numeroAula}";
+        $video = $this->videos_model->getSearch(null, null, 'v.video_titulo', $likeVideos);
+        //var_dump($materia);
+        //var_dump($curso);
+        var_dump($video);
+        var_dump($numeroAula);
+        var_dump($nomeProfessor);
+        
+        
+        //var_dump($_FILES['mapaAula']);
         
         die();
     }

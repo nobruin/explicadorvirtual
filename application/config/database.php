@@ -48,17 +48,16 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '127.0.0.1';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '123321';
-$db['default']['database'] = 'explicador_virtual';
-/*
+
 $db['default']['hostname'] = 'dbmy0056.whservidor.com';
 $db['default']['username'] = 'explicador2_1';
 $db['default']['password'] = 'b@bepro110';
-$db['default']['database'] = 'explicador2_1';
- */
 
+//$db['default']['hostname'] = '127.0.0.1';
+//$db['default']['username'] = 'root';
+//$db['default']['password'] = '123321';
+
+$db['default']['database'] = 'explicador2_1';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
